@@ -5,30 +5,35 @@ $secondary-color: #e1e1e1;
   font-family: "Gotham Bold";
   src: url("./fonts/Gotham-Bold.otf");
   font-weight: bold;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'DB Heavent';
   src: url('./fonts/DB Heavent v3.2.ttf');
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'DB Heavent';
   src: url('./fonts/DB\ Heavent\ Med\ v3.2.1.ttf');
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'DB Heavent';
   src: url('./fonts/DB\ Heavent\ Bd\ v3.2.1.ttf');
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'DB Heavent';
   src: url('./fonts/DB\ Heavent\ Blk\ v3.2.1.ttf');
   font-weight: 700;
+  font-display: swap;
 }
 
 .font-gotham {

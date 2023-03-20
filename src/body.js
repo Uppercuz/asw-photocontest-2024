@@ -75,10 +75,10 @@ function BodyTabs () {
                 </div>
               </div> : null
             }
-            <div className="container mx-auto py-2 px-3 md:py-8 xl:px-0 xl:py-16">
-              <p className='font-semibold text-[2.5rem] lg:text-[3rem]'>รางวัลยอดเยี่ยม จำนวน 10 รางวัล</p>
+            <div className="container mx-auto py-2 px-3 md:py-10 xl:px-0 xl:py-16">
+              <p className='font-semibold text-[2rem] leading-4 lg:text-[2.5rem]'>รางวัลยอดเยี่ยม จำนวน 10 รางวัล</p>
               <hr className='border border-black mt-4 mb-3'/>
-              <div className="awards-listed py-5">
+              <div className="awards-listed pb-5">
                 <p className='text-xl lg:text-2xl mb-4'>ภายใต้หัวข้อ {contestGroup.contestDesc}</p>
 
                 <ResponsiveMasonry >
@@ -90,8 +90,8 @@ function BodyTabs () {
                 </ResponsiveMasonry>
               </div>
 
-              <div className="awards-listed py-5">
-                <p className='font-semibold text-[1.5rem] lg:text-[2rem]'>ภาพที่ผ่านเข้ารอบ</p>
+              <div className="awards-listed pt-10 pb-5">
+                <p className='font-semibold text-[2rem] leading-4 lg:text-[2.5rem]'>ภาพที่ผ่านเข้ารอบ</p>
                 <hr className='border border-black mt-4 mb-5'/>
                 <p className='text-xl lg:text-2xl mb-4'>ภายใต้หัวข้อ {contestGroup.contestDesc}</p>
                 <ResponsiveMasonry >
