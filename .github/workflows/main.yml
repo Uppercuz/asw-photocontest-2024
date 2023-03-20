@@ -14,4 +14,5 @@ jobs:
         server: ftp.jkdez.dev
         username: jkdezdev
         password: C80m*M3fROm9@l
+        local-dir: ./build/
         server-dir: httpdocs/photocontest/
