@@ -12,6 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.jkdez.dev
-        username: jkdez
+        username: jkdezdev
         password: C80m*M3fROm9@l
         server-dir: httpdocs/photocontest/
