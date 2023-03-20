@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v3
       
     - name: Use Node.js 16
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '16'
         
@@ -21,8 +21,9 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ftp.jkdez.dev
-        username: jkdezdev
-        password: C80m*M3fROm9@l
+        server: ftp.assetwise.co.th
+        username: uppercuz@assetwise.co.th
+        password: T637bJo9VQt
         local-dir: ./build/
-        server-dir: httpdocs/photocontest/
+        server-dir: public_html/photocontest/
+        dry-run: true
