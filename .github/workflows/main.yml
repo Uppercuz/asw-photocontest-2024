@@ -26,4 +26,3 @@ jobs:
         password: C80m*M3fROm9@l
         local-dir: ./build/
         server-dir: httpdocs/photocontest/
-        dry-run: true
