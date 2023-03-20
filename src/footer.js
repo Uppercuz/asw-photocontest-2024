@@ -62,10 +62,6 @@ function footer () {
               <img src={require('./img/colorful-bkk-logo.png')} alt='Colorful Bangkok 2023'/>
             </a>
           </div>
-          <h4 className="font-semibold text-4xl mb-2 mb-4">สอบถามข้อมูลเพิ่มเติม</h4>
-          <p><span className="font-semibold">คุณป๊อป : </span>โทร <a href='tel:0972500058' title=''>097-250-0058</a></p>
-          <p>(ภายในเวลาเปิด-ปิด Office สมาคมฯ)</p>
-          <p><span className="font-semibold">Email : </span><a href='mailto:RPST.info@gmail.com' title=''>RPST.info@gmail.com</a></p>
         </div> 
       </div>
       <div className="copyright pt-2 pb-2 mt-4 px-3 xl:px-0">

@@ -35,6 +35,7 @@ function BodyTabs () {
         { itemsGroup.map((item, i)=> (
           <Tab key={i} className='uppercase whitespace-pre-line text-[#6d6e71] hover:text-[#333] ui-selected:text-[#333] xl:px-[20%] xl:py-[20px] font-gotham first:border-r-4 border-[#58595b] focus-visible:outline-0 cursor-pointer'>
             {item.contestLabel}
+            <p className='font-DBHeavent font-normal leading-[0.8] md:leading-normal text-[14px] md:text-[18px] mt-1 md:mt-0 md:text-2xl'>หมวด {item.contestDesc}</p>
           </Tab>
         ))}
       </Tab.List>
@@ -74,11 +75,11 @@ function BodyTabs () {
                 </div>
               </div> : null
             }
-            <div className="container mx-auto py-2 px-3 xl:px-0 xl:py-16">
-              <p className='font-semibold text-[2.5rem] lg:text-[3rem]'>รางวัลชมเชย</p>
+            <div className="container mx-auto py-2 px-3 md:py-8 xl:px-0 xl:py-16">
+              <p className='font-semibold text-[2.5rem] lg:text-[3rem]'>รางวัลยอดเยี่ยม จำนวน 10 รางวัล</p>
               <hr className='border border-black mt-4 mb-3'/>
               <div className="awards-listed py-5">
-                <p className='text-xl lg:text-2xl mb-4'>รางวัลต่าง ๆ ภายใต้หัวข้อ {contestGroup.contestDesc}</p>
+                <p className='text-xl lg:text-2xl mb-4'>ภายใต้หัวข้อ {contestGroup.contestDesc}</p>
 
                 <ResponsiveMasonry >
                   <Masonry gutter='10px'>

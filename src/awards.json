@@ -92,8 +92,8 @@
         "prefix": "นาย",
         "name": "วิหาร",
         "lastname": "ขวัญดี",
-        "imageName": "",
-        "imageDesc": ""
+        "imageName": "สีสันแห่งความสุข",
+        "imageDesc": "โนราห์ มโนราห์ ศิลปะการละเล่นพื้นเมืองสัญญลักษณ์ สีสันแห่งความสุข สนุกสนานของคนใต้ทุกช่วงวัย..ไม่มีแบ่งแยก.."
       },
       {
         "id": 9,
@@ -408,7 +408,7 @@
   {
     "contestName": "Unseen Happiness",
     "contestLabel": "Unseen \n Happiness",
-    "contestDesc": "Colorful Bangkok City Scape",
+    "contestDesc": "Creative Bangkok CityScape",
     "key": "creative-bkk-cityscape",
     "path": "https://assetwise.co.th/photocontest/creative-bkk-cityscape",
     "winner": {
