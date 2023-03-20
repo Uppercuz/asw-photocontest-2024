@@ -22,8 +22,8 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.assetwise.co.th
-        username: uppercuz@assetwise.co.th
-        password: T637bJo9VQt
+        username: ''
+        password: ''
         local-dir: ./build/
         server-dir: public_html/photocontest/
         dry-run: true
