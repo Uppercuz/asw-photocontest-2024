@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles.scss';
+import PageHeader from './header';
+import BodyTabs from './body';
+import PageFooter from './footer';
+import BackTotopComp from './backToTopComp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PageHeader/>
+      <section id='pageBody' className='bg-[#f9f9f9]'>
+        <BodyTabs/>
+      </section>
+      <BackTotopComp/>
+      <PageFooter/>
     </div>
   );
 }
