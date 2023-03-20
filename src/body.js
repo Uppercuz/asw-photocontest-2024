@@ -35,7 +35,7 @@ function BodyTabs () {
         { itemsGroup.map((item, i)=> (
           <Tab key={i} className='uppercase whitespace-pre-line text-[#6d6e71] hover:text-[#333] ui-selected:text-[#333] xl:px-[20%] xl:py-[20px] font-gotham first:border-r-4 border-[#58595b] focus-visible:outline-0 cursor-pointer'>
             {item.contestLabel}
-            <p className='font-DBHeavent font-normal leading-[0.8] md:leading-normal text-[14px] md:text-[18px] mt-1 md:mt-0 md:text-2xl'>หมวด {item.contestDesc}</p>
+            <p className='font-DBHeavent font-normal leading-[0.8] md:leading-tight text-[14px] md:text-[18px] mt-1 md:mt-0 md:text-2xl'>หมวด {item.contestDesc}</p>
           </Tab>
         ))}
       </Tab.List>
