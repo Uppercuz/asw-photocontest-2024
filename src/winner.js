@@ -7,7 +7,7 @@ function winnerBlock (props) {
       <div className="winnerDetails">
       </div>
       <div className="winnerImage">
-        {/* <img src={ 'https://assetwise.co.th/photo-contest-2023/' + awards[props.wid - 1].url } alt=""/> */}
+        {/* <img src={ 'https://assetwise.co.th/photocontest/' + awards[props.wid - 1].url } alt=""/> */}
       </div>
     </div>
   )
