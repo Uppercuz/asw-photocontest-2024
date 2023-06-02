@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <PageHeader/>
       <section id='pageBody' className='bg-[#f9f9f9]'>
-        <section className='intro-text py-10 bg-white border-y-[1px] border-y-stone-600'>
+        <section className='intro-text py-10 bg-white border-y-[1px] border-y-stone-300'>
           <div className="container mx-auto text-center">
             <p className='text-[24px] leading-[26px]'><span className='font-semibold'>Assetwise</span> ร่วมกับ <span className='font-semibold'>สมาคมถ่ายภาพแห่งประเทศไทย ในพระบรมราชูปถัมภ์</span> <br className='hidden md:block' />และ <span className='font-semibold'>Colorful Bangkok 2022</span> <br className='md:hidden' />จัดโครงการประกวดภาพถ่าย</p>
             <h3 className='text-3xl font-semibold font-gotham my-4'>“ASSETWISE <span className='text-[#e8501d]'>PHOTO</span> CONTEST 2022”</h3>
