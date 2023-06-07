@@ -1,6 +1,6 @@
-import DBanner from './img/ASW-PhotoConExhibit_Desktop_banner.jpg';
-import TBanner from './img/ASW-PhotoConExhibit_Tablet_banner.jpg';
-import MBanner from './img/ASW-PhotoConExhibit_Mobile_banner.jpg';
+import DBanner from './img/07062023_ASW_PhotoContest_Desktop-2730x1380-.jpeg';
+import TBanner from './img/07062023_ASW_PhotoContest_Desktop-2730x1380-.jpeg';
+import MBanner from './img/07062023_ASW_PhotoContest_Mobile-.jpeg';
 //import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function header () {
