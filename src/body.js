@@ -84,7 +84,7 @@ function BodyTabs () {
                 <ResponsiveMasonry >
                   <Masonry gutter='10px'>
                   {contestGroup.awards.map((item,i) => (
-                    <LazyLoadImage alt={item.imageName + ' โดย ' + item.prefix+item.name+' '+item.lastname} key={i} className={'cursor-pointer hover:opacity-80 transition-all'} src={ contestGroup.path + '/awards/thumbs/' + item.url +'.jpg' } onClick={ () => slideClickHandle(item, i, contestGroup.path + '/awards/thumbs/' + item.url +'.jpg')} />
+                    <LazyLoadImage alt={item.imageName + ' โดย ' + item.prefix+item.name+' '+item.lastname} key={i} className={'cursor-pointer hover:opacity-80 transition-all'} src={ contestGroup.path + '/awards/thumbs/' + item.url +'.jpg' } onClick={ () => slideClickHandle(item, i, contestGroup.path + '/awards/' + item.url +'.jpg')} />
                   ))}
                   </Masonry>
                 </ResponsiveMasonry>
@@ -97,7 +97,7 @@ function BodyTabs () {
                 <ResponsiveMasonry >
                   <Masonry gutter='10px'>
                   {contestGroup.participant.map((item,i) => (
-                    <LazyLoadImage alt={item.imageName + ' โดย ' + item.prefix+item.name+' '+item.lastname} key={i} className={'cursor-pointer hover:opacity-80 transition-all'} src={ contestGroup.path + '/participant/thumbs/' + item.url +'.jpg' } onClick={ () => slideClickHandle(item, i, contestGroup.path + '/participant/thumbs/' + item.url +'.jpg')} />
+                    <LazyLoadImage alt={item.imageName + ' โดย ' + item.prefix+item.name+' '+item.lastname} key={i} className={'cursor-pointer hover:opacity-80 transition-all'} src={ contestGroup.path + '/participant/thumbs/' + item.url +'.jpg' } onClick={ () => slideClickHandle(item, i, contestGroup.path + '/participant/' + item.url +'.jpg')} />
                   ))}
                   </Masonry>
                 </ResponsiveMasonry>
