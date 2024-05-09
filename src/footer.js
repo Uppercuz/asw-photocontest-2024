@@ -58,9 +58,9 @@ function footer () {
             <a title='rpst.or.th' href="http://www.rpst.or.th/" target={'_blank'} rel='noreferrer' className="footer-sponsor-link w-1/4 mr-6">
             <img src={require('./img/rpst-logo.png')} alt='RPST'/>
             </a>
-            <a title='bangkokartcity.org' href="https://www.bangkokartcity.org/" target={'_blank'} rel='noreferrer' className="footer-sponsor-link w-1/4">
+            {/* <a title='bangkokartcity.org' href="https://www.bangkokartcity.org/" target={'_blank'} rel='noreferrer' className="footer-sponsor-link w-1/4">
               <img src={require('./img/colorful-bkk-logo.png')} alt='Colorful Bangkok 2023'/>
-            </a>
+            </a> */}
           </div>
         </div> 
       </div>
