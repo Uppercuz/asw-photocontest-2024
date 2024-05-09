@@ -31,11 +31,11 @@ function BodyTabs () {
   return (
     <Tab.Group defaultIndex={0}>
       <div className="container mx-auto">
-      <Tab.List className='justify-center text-md md:text-2xl lg:text-4xl font-semibold leading-none grid grid-cols-2 py-[15px]'>
+      <Tab.List className='justify-center text-2xl md:text-3xl lg:text-4xl font-semibold leading-none grid grid-cols-2 py-[15px]'>
         { itemsGroup.map((item, i)=> (
           <Tab key={i} className='uppercase whitespace-pre-line text-[#6d6e71] hover:text-[#333] ui-selected:text-[#333] xl:px-[20%] xl:py-[20px] font-DBHeavent first:border-r-4 border-[#58595b] focus-visible:outline-0 cursor-pointer'>
-            {item.contestDesc}
-            <p className='font-gotham font-normal leading-[0.8] md:leading-tight text-[14px] md:text-[16px] mt-1 md:mt-0 md:text-2xl'>{item.contestName}</p>
+            {item.contestLabel}
+            {/* <p className='font-gotham font-normal leading-[0.8] md:leading-tight text-[14px] md:text-[16px] mt-1 md:mt-0 md:text-2xl'>{item.contestName}</p> */}
           </Tab>
         ))}
       </Tab.List>
@@ -66,11 +66,11 @@ function BodyTabs () {
             </Transition>
             {/* ----- Lightbox ---- */}
             { lightboxState ? 
-              <div onClick={closeLightboxHandle} className='fixed flex flex-col justify-center bg-stone-800/95 w-full h-full z-30 top-0 left-0'>
+              <div onClick={closeLightboxHandle} className='popup p-3 fixed flex flex-col justify-center max-h-screen overflow-y-auto bg-stone-800/95 w-full h-full z-30 top-0 left-0'>
                 <button className='w-[40px] h-auto p-3 absolute top-3 right-5' onClick={closeLightboxHandle}>
                   <svg className='fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
                 </button>
-                <LazyLoadImage className='align-center h-auto lg:h-4/5 mx-auto mb-3 justify-center' src={ slidePath } alt={ lightboxImgName+ ' โดย ' +lightboxName } title={ lightboxImgName+ ' โดย ' +lightboxName } />
+                <LazyLoadImage className='align-center h-auto lg:h-4/5 object-contain mx-auto my-3 justify-center' src={ slidePath } alt={ lightboxImgName+ ' โดย ' +lightboxName } title={ lightboxImgName+ ' โดย ' +lightboxName } />
                 <div className='w-4/5 lg:w-3/5 mx-auto'>
                   <p className='text-2xl text-center font-semibold text-white'>ชื่อภาพ "{lightboxImgName}"</p>
                   <p className='text-xl text-center font-semibold text-white'>ศิลปิน : {lightboxName}</p>
