@@ -79,7 +79,7 @@ function BodyTabs () {
               </div> : null
             }
             <div className="container mx-auto py-2 px-3 md:py-10 xl:px-0 xl:py-16">
-              <p className='font-semibold text-[2rem] leading-4 lg:text-[2.5rem]'>รางวัลยอดเยี่ยม จำนวน 10 รางวัล</p>
+              <p className='font-semibold text-[2rem] leading-4 lg:text-[2.5rem]'>รางวัลดีเด่น จำนวน {contestGroup.awards.length} รางวัล</p>
               <hr className='border border-black mt-4 mb-3'/>
               <div className="awards-listed pb-5">
                 <p className='text-xl lg:text-2xl mb-4'>ภายใต้หัวข้อ {contestGroup.contestDesc}</p>

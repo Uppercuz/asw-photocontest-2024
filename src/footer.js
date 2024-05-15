@@ -1,33 +1,38 @@
 const juries = [
   {
-    'name': 'คุณปณีตา มาลัยวงศ์',
-    'th-pos': 'รองประธานเจ้าหน้าที่บริหาร บริษัท แอสเซทไวส์ จำกัด (มหาชน)',
-    'en-txt': 'Paneeta Malaiwong, Director, Deputy CEO-Sales & Marketing, AssetWise PCL.'
-  },
-  {
-    'name': 'คุณนิวัตร์ ไวทยะมงคล',
-    'th-pos': 'รองประธานสายงานอาวุโส ฝ่ายภาพลักษณ์และสื่อสารองค์กร บริษัท แอสเซทไวส์ จำกัด (มหาชน)',
-    'en-txt': 'Niwat Vaitayamongkol, Senior Vice President Corporate Communication, AssetWise PCL.'
+    'name': 'คุณกรมเชษฐ์ วิพันธ์พงษ์',
+    'th-pos': 'ประธานเจ้าหน้าที่บริหาร บริษัท แอสเซทไวส์ จำกัด (มหาชน)',
+    'en-txt': 'Kromchet Vipanpong, Chief Executive Officer, AssetWise Public Company Limited'
   },
   {
     'name': 'คุณตุลย์ หิรัญญลาวัลย์',
     'th-pos': 'นายกสมาคมถ่ายภาพแห่งประเทศไทย ในพระบรมราชูปถัมภ์',
-    'en-txt': 'Tul Hirunyalawaan, Hon.F.RPST, President of The Royal Photographic Society of Thailand'
+    'en-txt': 'Tul Hirunyalawan, President of The Royal Photographic Society of Thailand'
+  },
+  {
+    'name': 'คุณปณีตา มาลัยวงศ์',
+    'th-pos': 'รองประธานเจ้าหน้าที่บริหารการตลาดและสื่อสารองค์กร และบริการลูกค้า บริษัท แอสเซทไวส์ จำกัด (มหาชน)',
+    'en-txt': 'Paneeta Malaivongs, Deputy Chief Executive Officer (Sales and Marketing), AssetWise Public Company Limited'
   },
   {
     'name': 'คุณจุฬวิศว์ ศานติพงศ์',
     'th-pos': 'อุปนายกสมาคมถ่ายภาพแห่งประเทศไทย ในพระบรมราชูปถัมภ์',
-    'en-txt': 'Chulawit Santipong, Hon.F.RPST, Vice President of The Royal Photographic Society of Thailand'
-  },
-  {
-    'name': 'คุณณภัชป์ รัตนศักดิ์',
-    'th-pos': 'เลขาธิการสมาคมถ่ายภาพแห่งประเทศไทย ในพระบรมราชูปถัมภ์',
-    'en-txt': 'Naphat Ratanasakdi, Hon.F.RPST, Secretary of The Royal Photographic Society of Thailand'
+    'en-txt': 'Chulawit Santipong, Vice-President of The Royal Photographic Society of Thailand'
   },
   {
     'name': 'คุณวรรณพงษ์ สุรโรจน์ประจักษ์',
-    'th-pos': 'กรรมการบริหารสมาคมถ่ายภาพแห่งประเทศไทย ในพระบรมราชูปถัมภ์',
-    'en-txt': 'Wannapong A. Surarochprajak, Hon.F.RPST, Executive Board Committee of The Royal Photographic Society of Thailand'
+    'th-pos': 'Hon.F.RPST, กรรมการบริหารสมาคมถ่ายภาพแห่งประเทศไทย ในพระบรมราชูปถัมภ์',
+    'en-txt': 'Wannapong Surarochprajak, Executive committee, The Royal Photographic Society of Thailand'
+  },
+  {
+    'name': 'คุณมรุพงษ์ กิจกสิกร',
+    'th-pos': 'ผู้ช่วยประธานเจ้าหน้าที่สายงานลูกค้าสัมพันธ์ บริษัท แอสเซทไวส์ จำกัด (มหาชน)',
+    'en-txt': 'Marupong kitkasikorn, Assistant To CEO (customer relations), AssetWise Public Company Limited'
+  },
+  {
+    'name': 'คุณเปรมฤดี เอี่ยมศรีใส',
+    'th-pos': 'ผู้จัดการฝ่ายสื่อสารการตลาด บริษัท แอสเซทไวส์ จำกัด (มหาชน)',
+    'en-txt': 'Premrudee Iamsrisai, Marketing Communication Manager, AssetWise Public Company Limited'
   }
 ]
 
@@ -36,7 +41,7 @@ function footer () {
     <footer className='pt-7'>
       <div className="container mx-auto gap-0 md:gap-5 grid md:grid-cols-2 px-3 xl:px-0">
         <div className="juries">
-          <h4 className="font-semibold text-3xl md:text-4xl mb-2 md:mb-4">คณะกรรมการตัดสิน</h4>
+          <h4 className="font-semibold text-3xl md:text-4xl mb-2 md:mb-4">คณะกรรมการตัดสิน - The Panel of Judges</h4>
           <div className="juries-listed sm:w-100">
             <ul>              
             {juries.map((item, i) => (
